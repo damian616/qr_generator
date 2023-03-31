@@ -1,0 +1,20 @@
+# IDE files
+# .vscode/
+
+# Virtual environment
+venv/
+
+
+
+# Custom ignored files
+android-chrome-512x512.png
+contact_qr_code.jpg
+Screenshot.png
+
+page.html
+
+website_qr_code_with_logo.jpg
+website_qr_code.jpg
+
+contact_info.json
+site_info.json
