@@ -8,7 +8,7 @@ with open("contact_info.json", "r") as json_file:
     contact_info = json.load(json_file)
 
 # Create vCard object
-vcard = f"BEGIN:VCARD\nVERSION:3.0\nN:{contact_info['name']}\nORG:{contact_info['company']}\nTEL:{contact_info['phone']}\nEMAIL:{contact_info['email']}\nURL:{contact_info['website']}\nNOTE:{contact_info['note']}\nEND:VCARD"
+vcard = f"BEGIN:VCARD\nVERSION:3.0\nN:{contact_info['nombre']}\nTEL:{contact_info['telefono']}\nURL:{contact_info['website']}\nEND:VCARD"
 
 # Create QR code instance and add vCard data
 qr = qrcode.QRCode(version=1, box_size=10, border=5)
